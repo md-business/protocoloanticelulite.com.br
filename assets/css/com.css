@@ -30,9 +30,9 @@ body {
   border-radius: 3px;
   padding: 0 15px;
   padding-bottom: 15px;
-  margin: auto;
   position: relative;
   color: #4267b2;
+  background-color: rgba(108, 186, 255, 0.5);
 }
 
 .fb-comments-header {
@@ -41,7 +41,7 @@ body {
 }
 
 .fb-comments-header span {
-  color: #000;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 0.9em;
 }
@@ -89,7 +89,7 @@ tr {
 }
 
 .fb-comments-comment-name name {
-  color: #365899;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 700;
   cursor: pointer;
@@ -109,13 +109,14 @@ tr {
   color: #000;
   border-radius: 21px;
   background-color: #eaebef;
+  text-align: center;
   padding: 10px 20px;
 }
 
 .fb-comments-comment-actions like,
 .fb-comments-comment-actions reply {
   font-size: 0.75em;
-  color: #4267b2;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
   cursor: hand;
@@ -140,7 +141,7 @@ tr {
   padding-bottom: 2px;
   margin-top: -10px;
   float: right;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border: solid #eaebef;
   border-radius: 19px;
 }
